@@ -17,7 +17,7 @@ if (window.confirm(`Remove ${totalVideos} videos in ${totalSeconds} seconds?`)) 
       const openDropdownButton = video.querySelectorAll('.yt-icon-button')[0]
       openDropdownButton.click()
 
-      const removeFromWatchLaterButton = document.querySelectorAll('ytd-menu-service-item-renderer.ytd-menu-popup-renderer')[2]
+      const removeFromWatchLaterButton = document.querySelectorAll('ytd-menu-service-item-renderer.ytd-menu-popup-renderer')[3]
       removeFromWatchLaterButton.click()
 
       const left = totalVideos - j - 1
